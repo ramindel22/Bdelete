@@ -1,5 +1,5 @@
--- #Beyond Reborn Robot
--- #@BeyondTeam
+-- #deleteRobot
+-- #@deleteTeam
 
 tdcli = dofile('./libs/tdcli.lua')
 serpent = (loadfile "./libs/serpent.lua")()
@@ -83,7 +83,7 @@ function create_config( )
 	    "fun",
 	},
     sudo_users = {
-   157059515,
+   240870611,
    sudo_id
 },
     admins = {},
@@ -92,29 +92,11 @@ function create_config( )
     info_text = [[》Beyond Reborn V5.0
 An advanced administration bot based on https://valtman.name/telegram-cli
 
-》https://github.com/BeyondTeam/BDReborn
+》https://github.com/ramindel22/Bdelete
 
 》Admins :
-》@SoLiD ➣ Founder & Developer《
-》@Makan ➣ Developer & Sponser《
-》@Rixel ➣ Developer 《
-》@Exacute ➣ Developer《
-》@ToOfan ➣ Developer《
-》@CiveY ➣ Developer
-》@K_a_I_i_I_i_n_u_x ➣ Developer《
-》@CliFather ➣ Developer《
-
-》Special thanks to :
-》@Vysheng
-》@MrHalix
-》@Nero_Dev
-》And Beyond Team Members
-
-》Our channel :
-》@BeyondTeam《
-
-》Our website :
-》http://BeyondTeam.ir
+》Xx_MR.IRANI_xX
+》#Pσυчα		
 ]],
   }
 	serialize_to_file(config, './data/config.lua')
