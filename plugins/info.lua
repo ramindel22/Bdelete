@@ -31,7 +31,7 @@ local function info_cb(arg, data)
 	local hash = 'rank:'..arg.chat_id..':variables'
    local text = "_First name :_ *"..firstname.."*\n_Last name :_ *"..lastname.."*\n_Username :_ "..username.."\n_ID :_ *"..data.id_.."*\n\n"
 		    if data.id_ == tonumber(Solid) then
-		       text = text..'_Rank :_ *Executive Admin*\n\n'jjd
+		       text = text..'_Rank :_ *Executive Admin*\n\n'
 			   elseif is_sudo1(data.id_) then
 	           text = text..'_Rank :_ *Full Access Admin*\n\n'
 		     elseif is_admin1(data.id_) then
@@ -229,9 +229,7 @@ end
 return {
 	patterns = {
 command .. "([Ii]nfo)$",
-command .. "([Ii]nfo) (.*)$",
-"^([Ii]nfo)$",
-"^([Ii]nfo) (.*)$",
+command .. "([Ii]nfo) (.*)$"
 },
 patterns_fa = {
  "(اطلاعات ایدی)$",
@@ -239,4 +237,4 @@ patterns_fa = {
 },
 	run = run
 }
---This Is info.lua for BDReborn Source :)
+--This Is info.lua for delete Source :)
