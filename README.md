@@ -22,7 +22,7 @@
 cd $HOME
 git clone https://github.com/ramindel22/Bdelete.git
 cd Bdelete
-chmod +x beyond.sh
+chmod +x Bdelete
 ./Bdelete.sh install
 ./Bdelete.sh 
 # Enter a phone number & confirmation code.
