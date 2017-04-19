@@ -23,8 +23,8 @@ cd $HOME
 git clone https://github.com/ramindel22/Bdelete.git
 cd Bdelete
 chmod +x Bdelete
-./Bdelete.sh install
-./Bdelete.sh 
+./delete.sh install
+./delete.sh 
 # Enter a phone number & confirmation code.
 
 # For Auto Launch:
@@ -34,11 +34,11 @@ screen ./autobd.sh
 ### One command
 To install everything in one command, use:
 ```sh
-cd $HOME && git clone https://github.com/ramindel22/Bdelete.git && cd Bdelete && chmod +x Bdelete.sh && ./Bdelete.sh install && ./Bdelete.sh
+cd $HOME && git clone https://github.com/ramindel22/Bdelete.git && cd Bdelete && chmod +x delete.sh && ./delete.sh install && ./Bdelete.sh
 
 OR
 
-cd $HOME && git clone https://github.com/ramindel22/Bdelete.git && cd Bdelete && chmod +x Bdelete.sh && ./Bdelete.sh install && chmod 777 autobd.sh && screen ./autobd.sh
+cd $HOME && git clone https://github.com/ramindel22/Bdelete.git && cd Bdelete && chmod +x delete.sh && ./delete.sh install && chmod 777 autobd.sh && screen ./autobd.sh
 ```
 
 * * *
