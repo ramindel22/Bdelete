@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-cd $HOME/Bdelete
+cd $HOME/delete
 
 install() {
 	    cd libs
@@ -48,7 +48,7 @@ function logo_play() {
 	echo -e "\e[0m"
 }
 
-function beyondteam() {
+function deleteteam() {
 	echo -e "\e[0m"
 	green "     >>>>                       We Are Not Attacker                             "
 	green "     >>>>                       We Are Not Alliance                             "
@@ -79,7 +79,7 @@ if [ "$1" = "install" ]; then
 	install
 elif [ "$1" = "update" ]; then
 	logo_play
-	beyondteam
+	deleteteam
 	update
 else
 if [ ! -f ./libs/tgcli ]; then
@@ -88,7 +88,7 @@ if [ ! -f ./libs/tgcli ]; then
     exit 1
 fi
 	print_logo
-	beyondteam
+	deleteteam
 	logo_play
 	#sudo service redis-server restart
 	./libs/tgcli -s ./bot/bot.lua $@
